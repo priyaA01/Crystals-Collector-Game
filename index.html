@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <title>Priya Ammaiyappan</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Link to added fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Risque|Dancing+Script:400,700|Roboto+Slab" rel="stylesheet">
+      <!-- Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- Link to external CSS :  reset , style-->
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   </head>
+   <body >
+      <header class="text-center">
+         <h1>Crystals Collector!</h1>
+      </header>
+      <div class="container mainContainer" >
+         <div class="row">
+            <div class="col-md-8 col-sm-12">
+               <div class="row">
+                  <div class="col-md-12 col-sm-12 ">
+                     <span class="words">Score to reach:</span>
+                     <div class="text-center" id="randomNumber"></div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <span class="words">Your Total Score :</span>
+                     <div class="text-center" id="crystalScore">0</div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12 col-sm-12 text-center">
+                     <a href="#" ><img id="1" class ="crystal"  src="assets/images/c1.jpg" alt="crystal" ></a>
+                     <a href="#" ><img id="2" class ="crystal" src="assets/images/c2.jpg" alt="crystal" ></a>
+                     <a href="#" ><img id="3" class ="crystal" src="assets/images/c3.jpg" alt="crystal" ></a>
+                     <a href="#" ><img id="4" class ="crystal" src="assets/images/c4.jpg" alt="crystal" ></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+               <table class="table table-bordered">
+                  <caption id="tableHeader">Score Board</caption>
+                  <tr class="tableContent">
+                     <td>Wins</td>
+                     <td id="wins">0</td>
+                  </tr>
+                  <tr class="tableContent">
+                     <td>Losses</td>
+                     <td id="losses">0</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <footer class="text-center" >
+         &copy; Copyright 2018 Priya Ammaiyappan
+      </footer>
+      <audio id="backgroundSound" controls loop>
+         <source src="assets/images/background.mp3" type="audio/mp3">
+      </audio>
+      <audio id="correctSound" controls>
+         <source src="assets/images/correct.mp3" type="audio/mp3">
+      </audio>
+      <audio id="wrongSound" controls>
+         <source src="assets/images/wrong.mp3" type="audio/mp3">
+      </audio>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/javascript/game.js"></script>
+   </body>
+</html>
