@@ -13,7 +13,7 @@ body {
 
 header {
     padding: 10px;
-    font-size: 80px;
+    font-size: 60px;
     color: darkslateblue;
     font-family: 'Risque', cursive;
     margin-bottom: 30px;
@@ -40,9 +40,9 @@ footer {
 #crystalScore {
     color: black;
     margin-top: 20px;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -73,7 +73,7 @@ footer {
 }
 
 .tableContent {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 
@@ -98,7 +98,7 @@ table {
         font-size: 15px;
     }
     header {
-        font-size: 40px;
+        font-size: 30px;
     }
     footer {
         font-size: 10px;
