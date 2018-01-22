@@ -55,7 +55,7 @@ var gameObject = {
 	crystalRandomNumbers: function () {
 		var crystalRandomNumbers = [];
 		var j;
-		for (var i = 0; i < 4; i++) {
+		for (var i = 1; i < 5; i++) {
 			crystalRandomNumbers.push(Math.floor(Math.random() * 12) + 1);
 		}
 		return crystalRandomNumbers;
@@ -64,6 +64,7 @@ var gameObject = {
 };
 
 $(document).ready(gameObject.scoreCheck());
+
 
 $("#1").on("click", function () {
 	gameObject.setScore(crystalNumber[0], numberToReach);
