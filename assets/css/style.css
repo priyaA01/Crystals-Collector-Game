@@ -4,25 +4,23 @@ html {
 }
 
 body {
-    font-size: 40px;
-    width: 100%;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header {
-    padding: 10px;
-    font-size: 50px;
     color: darkslateblue;
     font-family: 'Risque', cursive;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .mainContainer {
-    width: 90%;
-    height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -32,83 +30,44 @@ footer {
     width: 100%;
     clear: both;
     color: black;
-    height: 30px;
+    height: 20px;
     font-size: 15px;
 }
 
-#randomNumber,
-#crystalScore {
-    color: black;
-    margin-top: 20px;
-    padding: 15px;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Roboto Slab', serif;
+#box {
+    background-color: lightyellow;
+    border-radius: 20px;
+    border: 1px solid yellow;
 }
 
-.words {
+#crystalSet {
+    margin-top: 40px;
+}
+
+#randomNumber,
+#crystalScore,
+#wins,
+#losses {
     color: black;
+    margin-top: 20px;
+    text-align: center;
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
 }
 
+span {
+    color: black;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
 .crystal {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 
 #correctSound,
 #wrongSound,
 #backgroundSound {
     display: none;
-}
-
-#tableHeader {
-    padding: 5px;
-    text-align: center;
-    background-color: black;
-    font-size: 25px;
-    font-family: 'Dancing Script', cursive;
-    color: white;
-}
-
-.tableContent {
-    font-size: 20px;
-    color: black;
-}
-
-table {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    overflow-x: auto;
-    width: 100%;
-}
-
-
-/* media queries */
-
-@media screen and (max-width:768px) {
-    header {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width:640px) {
-    body {
-        font-size: 15px;
-    }
-    header {
-        font-size: 30px;
-    }
-    footer {
-        font-size: 10px;
-        height: 20px;
-    }
-    #tableHeader,
-    .tableContent,
-    span,
-    randomNumber,
-    crystalScore {
-        font-size: 10px;
-    }
 }
