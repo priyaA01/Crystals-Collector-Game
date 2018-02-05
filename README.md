@@ -1,9 +1,12 @@
 # Crystals Collector game
 
 
-Crystals Collector is a game built using jQuery, HTML and CSS.
+Crystals Collector is a game built using HTML, CSS and jQuery.
 
-## Getting Started
+Javascript function Math.random() is used for generating random numbers.
+
+
+## How it Works
  
 - There will be four crystals displayed as buttons on the page.
 
@@ -25,10 +28,6 @@ Crystals Collector is a game built using jQuery, HTML and CSS.
 
 - The app show the number of games the player wins and loses. 
 
-
-### Prerequisites
-
-None.
 
 #### Author
 
